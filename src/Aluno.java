@@ -1,6 +1,7 @@
 public class Aluno extends Pessoa{
     private int anoEntrada;
     private int periodoEntrada;
+    private Endereco endereco;
 
     public int getAnoEntrada() {
         return anoEntrada;
@@ -16,5 +17,13 @@ public class Aluno extends Pessoa{
 
     public void setPeriodoEntrada(int periodoEntrada) {
         this.periodoEntrada = periodoEntrada;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 }
