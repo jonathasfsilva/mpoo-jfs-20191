@@ -1,4 +1,4 @@
-public class Pessoa extends Endereco{
+public class Pessoa extends Endereco {
     private String nome;
     private String cpf;
 
@@ -16,5 +16,9 @@ public class Pessoa extends Endereco{
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String mostra(){
+        return this.getNome();
     }
 }

@@ -35,4 +35,8 @@ public class Endereco {
     public void setComplemento(String complemento) {
         this.complemento = complemento;
     }
+
+    public String mostra(){
+        return this.getRua() + " Nº" +getNumero() + " - " + getCidade() + " - " + getComplemento();
+    }
 }
